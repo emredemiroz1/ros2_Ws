@@ -1,0 +1,180 @@
+[0.452s] Invoking command in '/home/emred/catkin_ws/build/beetle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/beetle_msgs -- -j16 -l16
+[0.803s] [  2%] Built target beetle_msgs__cpp
+[0.804s] [ 12%] Built target beetle_msgs__rosidl_generator_c
+[0.804s] [ 12%] Built target ament_cmake_python_copy_beetle_msgs
+[0.804s] [ 23%] Built target beetle_msgs__rosidl_typesupport_fastrtps_cpp
+[0.805s] [ 44%] Built target beetle_msgs__rosidl_typesupport_cpp
+[0.805s] [ 44%] Built target beetle_msgs__rosidl_typesupport_introspection_cpp
+[0.806s] [ 55%] Built target beetle_msgs__rosidl_typesupport_c
+[0.806s] [ 65%] Built target beetle_msgs__rosidl_typesupport_fastrtps_c
+[0.807s] [ 76%] Built target beetle_msgs__rosidl_typesupport_introspection_c
+[0.807s] [ 76%] Built target beetle_msgs
+[0.808s] [ 78%] Built target beetle_msgs__py
+[0.809s] [ 87%] Built target beetle_msgs__rosidl_generator_py
+[0.809s] [100%] Built target beetle_msgs__rosidl_typesupport_introspection_c__pyext
+[0.809s] [100%] Built target beetle_msgs__rosidl_typesupport_c__pyext
+[0.809s] [100%] Built target beetle_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.809s] running egg_info
+[0.809s] writing beetle_msgs.egg-info/PKG-INFO
+[0.809s] writing dependency_links to beetle_msgs.egg-info/dependency_links.txt
+[0.809s] writing top-level names to beetle_msgs.egg-info/top_level.txt
+[0.810s] reading manifest file 'beetle_msgs.egg-info/SOURCES.txt'
+[0.810s] writing manifest file 'beetle_msgs.egg-info/SOURCES.txt'
+[0.840s] [100%] Built target ament_cmake_python_build_beetle_msgs_egg
+[1.146s] Invoked command in '/home/emred/catkin_ws/build/beetle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/beetle_msgs -- -j16 -l16
+[1.496s] Invoking command in '/home/emred/catkin_ws/build/beetle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/beetle_msgs
+[1.682s] -- Install configuration: ""
+[1.682s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/ament_index/resource_index/rosidl_interfaces/beetle_msgs
+[1.682s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs
+[1.682s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg
+[1.683s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail
+[1.683s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__functions.c
+[1.683s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__functions.h
+[1.683s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__struct.h
+[1.683s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__functions.h
+[1.683s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__type_support.h
+[1.683s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__type_support.h
+[1.683s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__struct.h
+[1.683s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__type_support.h
+[1.683s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__functions.c
+[1.683s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__functions.h
+[1.684s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__functions.c
+[1.684s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__struct.h
+[1.684s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.684s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/pose_lite.h
+[1.684s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/odometry_lite.h
+[1.685s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/twist_lite.h
+[1.685s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/environment/library_path.sh
+[1.685s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/environment/library_path.dsv
+[1.685s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/lib/libbeetle_msgs__rosidl_generator_c.so
+[1.685s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs
+[1.685s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg
+[1.685s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail
+[1.686s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__rosidl_typesupport_fastrtps_c.h
+[1.686s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__rosidl_typesupport_fastrtps_c.h
+[1.686s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__rosidl_typesupport_fastrtps_c.h
+[1.686s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.686s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/lib/libbeetle_msgs__rosidl_typesupport_fastrtps_c.so
+[1.686s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs
+[1.686s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg
+[1.687s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail
+[1.687s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__type_support.c
+[1.687s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__type_support.c
+[1.687s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__rosidl_typesupport_introspection_c.h
+[1.687s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__type_support.c
+[1.687s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__rosidl_typesupport_introspection_c.h
+[1.687s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__rosidl_typesupport_introspection_c.h
+[1.687s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.688s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/lib/libbeetle_msgs__rosidl_typesupport_introspection_c.so
+[1.688s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/lib/libbeetle_msgs__rosidl_typesupport_c.so
+[1.688s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs
+[1.688s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg
+[1.688s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail
+[1.688s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__builder.hpp
+[1.688s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__struct.hpp
+[1.688s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__builder.hpp
+[1.689s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__struct.hpp
+[1.689s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__builder.hpp
+[1.689s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__traits.hpp
+[1.689s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__traits.hpp
+[1.689s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__traits.hpp
+[1.689s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__struct.hpp
+[1.689s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/pose_lite.hpp
+[1.690s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/twist_lite.hpp
+[1.690s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/odometry_lite.hpp
+[1.690s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs
+[1.690s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg
+[1.690s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail
+[1.690s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__rosidl_typesupport_fastrtps_cpp.hpp
+[1.691s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__rosidl_typesupport_fastrtps_cpp.hpp
+[1.691s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__rosidl_typesupport_fastrtps_cpp.hpp
+[1.691s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/dds_fastrtps
+[1.691s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.691s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/lib/libbeetle_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.691s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs
+[1.692s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg
+[1.692s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail
+[1.692s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__type_support.cpp
+[1.692s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__type_support.cpp
+[1.692s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/pose_lite__rosidl_typesupport_introspection_cpp.hpp
+[1.692s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/twist_lite__rosidl_typesupport_introspection_cpp.hpp
+[1.692s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__rosidl_typesupport_introspection_cpp.hpp
+[1.692s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/include/beetle_msgs/beetle_msgs/msg/detail/odometry_lite__type_support.cpp
+[1.692s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/lib/libbeetle_msgs__rosidl_typesupport_introspection_cpp.so
+[1.692s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/lib/libbeetle_msgs__rosidl_typesupport_cpp.so
+[1.693s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/environment/pythonpath.sh
+[1.693s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/environment/pythonpath.dsv
+[1.693s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs-0.0.0-py3.10.egg-info
+[1.693s] -- Installing: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.693s] -- Installing: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.693s] -- Installing: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.693s] -- Installing: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.693s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs
+[1.693s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/__init__.py
+[1.693s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/_beetle_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.693s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/libbeetle_msgs__rosidl_generator_py.so
+[1.693s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/beetle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.693s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/_beetle_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.693s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/msg
+[1.694s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/msg/_odometry_lite_s.c
+[1.694s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/msg/__init__.py
+[1.694s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/msg/_twist_lite_s.c
+[1.694s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/msg/_twist_lite.py
+[1.694s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/msg/_pose_lite.py
+[1.694s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/msg/_pose_lite_s.c
+[1.694s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/msg/_odometry_lite.py
+[1.694s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/beetle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.695s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/_beetle_msgs_s.ep.rosidl_typesupport_c.c
+[1.695s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/beetle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.695s] Listing '/home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs'...
+[1.695s] Listing '/home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/msg'...
+[1.695s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/beetle_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.695s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/beetle_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.695s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/local/lib/python3.10/dist-packages/beetle_msgs/beetle_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.695s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/lib/libbeetle_msgs__rosidl_generator_py.so
+[1.696s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/msg/PoseLite.idl
+[1.696s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/msg/TwistLite.idl
+[1.696s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/msg/OdometryLite.idl
+[1.696s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/msg/PoseLite.msg
+[1.696s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/msg/TwistLite.msg
+[1.696s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/msg/OdometryLite.msg
+[1.696s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/ament_index/resource_index/package_run_dependencies/beetle_msgs
+[1.696s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/ament_index/resource_index/parent_prefix_path/beetle_msgs
+[1.697s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/environment/ament_prefix_path.sh
+[1.697s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/environment/ament_prefix_path.dsv
+[1.697s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/environment/path.sh
+[1.697s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/environment/path.dsv
+[1.697s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/local_setup.bash
+[1.697s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/local_setup.sh
+[1.697s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/local_setup.zsh
+[1.698s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/local_setup.dsv
+[1.698s] -- Installing: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/package.dsv
+[1.698s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/ament_index/resource_index/packages/beetle_msgs
+[1.698s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/export_beetle_msgs__rosidl_generator_cExport.cmake
+[1.698s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/export_beetle_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.699s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/export_beetle_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.699s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/export_beetle_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.699s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/beetle_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.699s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/beetle_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.699s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/beetle_msgs__rosidl_typesupport_cExport.cmake
+[1.700s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/beetle_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.700s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/export_beetle_msgs__rosidl_generator_cppExport.cmake
+[1.700s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/export_beetle_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.700s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/export_beetle_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.700s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/beetle_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.700s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/beetle_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.700s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/beetle_msgs__rosidl_typesupport_cppExport.cmake
+[1.701s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/beetle_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.701s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/export_beetle_msgs__rosidl_generator_pyExport.cmake
+[1.701s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/export_beetle_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.701s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/rosidl_cmake-extras.cmake
+[1.702s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.702s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.702s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.702s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.702s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.702s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.703s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/beetle_msgsConfig.cmake
+[1.703s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/cmake/beetle_msgsConfig-version.cmake
+[1.703s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_msgs/share/beetle_msgs/package.xml
+[1.939s] Invoked command in '/home/emred/catkin_ws/build/beetle_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/beetle_msgs

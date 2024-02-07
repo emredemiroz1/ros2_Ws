@@ -1,0 +1,29 @@
+[0.509s] Invoking command in '/home/emred/catkin_ws/build/beetle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/beetle_description -- -j16 -l16
+[1.179s] Invoked command in '/home/emred/catkin_ws/build/beetle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/beetle_description -- -j16 -l16
+[1.217s] Invoking command in '/home/emred/catkin_ws/build/beetle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/beetle_description
+[1.238s] -- Install configuration: ""
+[1.238s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/src
+[1.238s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/src/.gitkeep
+[1.239s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/launch
+[1.239s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/launch/display.launch.py
+[1.239s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/rviz
+[1.239s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/rviz/default_view.rviz
+[1.240s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/urdf
+[1.240s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/urdf/basic_shapes.xacro.xml
+[1.240s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/urdf/beetle.urdf
+[1.240s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/ament_index/resource_index/package_run_dependencies/beetle_description
+[1.240s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/ament_index/resource_index/parent_prefix_path/beetle_description
+[1.241s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/environment/ament_prefix_path.sh
+[1.241s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/environment/ament_prefix_path.dsv
+[1.242s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/environment/path.sh
+[1.242s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/environment/path.dsv
+[1.242s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/local_setup.bash
+[1.243s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/local_setup.sh
+[1.243s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/local_setup.zsh
+[1.243s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/local_setup.dsv
+[1.243s] -- Installing: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/package.dsv
+[1.243s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/ament_index/resource_index/packages/beetle_description
+[1.244s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/cmake/beetle_descriptionConfig.cmake
+[1.245s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/cmake/beetle_descriptionConfig-version.cmake
+[1.245s] -- Up-to-date: /home/emred/catkin_ws/install/beetle_description/share/beetle_description/package.xml
+[1.311s] Invoked command in '/home/emred/catkin_ws/build/beetle_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/beetle_description

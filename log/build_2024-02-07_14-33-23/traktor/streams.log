@@ -1,0 +1,20 @@
+[1.571s] Invoking command in '/home/emred/catkin_ws/src/traktor': PYTHONPATH=/home/emred/catkin_ws/build/traktor/prefix_override:/home/emred/catkin_ws/install/traktor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/traktor build --build-base /home/emred/catkin_ws/build/traktor/build install --record /home/emred/catkin_ws/build/traktor/install.log --single-version-externally-managed
+[1.865s] running egg_info
+[1.866s] writing ../../build/traktor/traktor.egg-info/PKG-INFO
+[1.866s] writing dependency_links to ../../build/traktor/traktor.egg-info/dependency_links.txt
+[1.866s] writing entry points to ../../build/traktor/traktor.egg-info/entry_points.txt
+[1.866s] writing requirements to ../../build/traktor/traktor.egg-info/requires.txt
+[1.866s] writing top-level names to ../../build/traktor/traktor.egg-info/top_level.txt
+[1.869s] reading manifest file '../../build/traktor/traktor.egg-info/SOURCES.txt'
+[1.871s] writing manifest file '../../build/traktor/traktor.egg-info/SOURCES.txt'
+[1.871s] running build
+[1.871s] running build_py
+[1.871s] running install
+[1.871s] running install_lib
+[1.873s] running install_data
+[1.874s] running install_egg_info
+[1.876s] removing '/home/emred/catkin_ws/install/traktor/lib/python3.10/site-packages/traktor-0.0.0-py3.10.egg-info' (and everything under it)
+[1.876s] Copying ../../build/traktor/traktor.egg-info to /home/emred/catkin_ws/install/traktor/lib/python3.10/site-packages/traktor-0.0.0-py3.10.egg-info
+[1.877s] running install_scripts
+[1.901s] writing list of installed files to '/home/emred/catkin_ws/build/traktor/install.log'
+[2.074s] Invoked command in '/home/emred/catkin_ws/src/traktor' returned '0': PYTHONPATH=/home/emred/catkin_ws/build/traktor/prefix_override:/home/emred/catkin_ws/install/traktor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/traktor build --build-base /home/emred/catkin_ws/build/traktor/build install --record /home/emred/catkin_ws/build/traktor/install.log --single-version-externally-managed

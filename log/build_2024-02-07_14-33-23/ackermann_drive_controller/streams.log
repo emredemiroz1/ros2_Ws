@@ -1,0 +1,39 @@
+[0.568s] Invoking command in '/home/emred/catkin_ws/build/ackermann_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/ackermann_drive_controller -- -j16 -l16
+[0.923s] [ 38%] Built target gmock_main
+[0.924s] [ 38%] Built target gmock
+[0.924s] [ 69%] Built target ackermann_drive_controller
+[0.925s] [ 84%] Built target test_load_ackermann_drive_controller
+[0.926s] [100%] Built target test_ackermann_drive_controller
+[1.244s] Invoked command in '/home/emred/catkin_ws/build/ackermann_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/ackermann_drive_controller -- -j16 -l16
+[1.542s] Invoking command in '/home/emred/catkin_ws/build/ackermann_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/ackermann_drive_controller
+[1.612s] -- Install configuration: ""
+[1.612s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/ackermann_drive_plugin.xml
+[1.613s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/include
+[1.615s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/include/ackermann_drive_controller
+[1.615s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/include/ackermann_drive_controller/ackermann_drive_controller.hpp
+[1.616s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/include/ackermann_drive_controller/visibility_control.h
+[1.616s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/include/ackermann_drive_controller/odometry.hpp
+[1.616s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/include/ackermann_drive_controller/speed_limiter.hpp
+[1.616s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/lib/libackermann_drive_controller.so
+[1.616s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/environment/library_path.sh
+[1.616s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/environment/library_path.dsv
+[1.616s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ament_index/resource_index/package_run_dependencies/ackermann_drive_controller
+[1.616s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ament_index/resource_index/parent_prefix_path/ackermann_drive_controller
+[1.616s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/environment/ament_prefix_path.sh
+[1.617s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/environment/ament_prefix_path.dsv
+[1.617s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/environment/path.sh
+[1.617s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/environment/path.dsv
+[1.617s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/local_setup.bash
+[1.617s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/local_setup.sh
+[1.617s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/local_setup.zsh
+[1.617s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/local_setup.dsv
+[1.617s] -- Installing: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/package.dsv
+[1.617s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ament_index/resource_index/packages/ackermann_drive_controller
+[1.618s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ackermann_drive_controller
+[1.618s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.618s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.618s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[1.618s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/cmake/ackermann_drive_controllerConfig.cmake
+[1.618s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/cmake/ackermann_drive_controllerConfig-version.cmake
+[1.618s] -- Up-to-date: /home/emred/catkin_ws/install/ackermann_drive_controller/share/ackermann_drive_controller/package.xml
+[1.874s] Invoked command in '/home/emred/catkin_ws/build/ackermann_drive_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/ackermann_drive_controller
