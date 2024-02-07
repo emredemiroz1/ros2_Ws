@@ -1,0 +1,26 @@
+[0.581s] Invoking command in '/home/emred/catkin_ws/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/four_ws_control -- -j16 -l16
+[0.930s] Invoked command in '/home/emred/catkin_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/four_ws_control -- -j16 -l16
+[1.034s] Invoking command in '/home/emred/catkin_ws/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/four_ws_control
+[1.166s] -- Install configuration: ""
+[1.167s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control//scripts
+[1.167s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control//scripts/robot_control.py
+[1.167s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control//launch
+[1.168s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control//launch/four_ws_control.launch.py
+[1.168s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/lib/four_ws_control/robot_control.py
+[1.169s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/lib/four_ws_control/four_ws_control.launch.py
+[1.169s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/ament_index/resource_index/package_run_dependencies/four_ws_control
+[1.169s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/ament_index/resource_index/parent_prefix_path/four_ws_control
+[1.169s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.sh
+[1.170s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.dsv
+[1.170s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control/environment/path.sh
+[1.170s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control/environment/path.dsv
+[1.170s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control/local_setup.bash
+[1.170s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control/local_setup.sh
+[1.171s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control/local_setup.zsh
+[1.171s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control/local_setup.dsv
+[1.171s] -- Installing: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control/package.dsv
+[1.171s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/ament_index/resource_index/packages/four_ws_control
+[1.171s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig.cmake
+[1.171s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig-version.cmake
+[1.172s] -- Up-to-date: /home/emred/catkin_ws/install/four_ws_control/share/four_ws_control/package.xml
+[1.172s] Invoked command in '/home/emred/catkin_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/four_ws_control

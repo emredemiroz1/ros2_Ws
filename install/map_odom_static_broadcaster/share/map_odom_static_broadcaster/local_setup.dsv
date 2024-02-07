@@ -1,0 +1,2 @@
+source;share/map_odom_static_broadcaster/environment/ament_prefix_path.sh
+source;share/map_odom_static_broadcaster/environment/path.sh

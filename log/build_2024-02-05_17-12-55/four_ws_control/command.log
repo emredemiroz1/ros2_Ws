@@ -1,0 +1,4 @@
+Invoking command in '/home/emred/catkin_ws/build/four_ws_control': CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/four_ws_control -- -j16 -l16
+Invoked command in '/home/emred/catkin_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/four_ws_control -- -j16 -l16
+Invoking command in '/home/emred/catkin_ws/build/four_ws_control': CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/four_ws_control
+Invoked command in '/home/emred/catkin_ws/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/four_ws_control

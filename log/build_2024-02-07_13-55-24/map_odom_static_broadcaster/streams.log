@@ -1,0 +1,23 @@
+[0.393s] Invoking command in '/home/emred/catkin_ws/build/map_odom_static_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/map_odom_static_broadcaster -- -j16 -l16
+[0.780s] [35m[1mConsolidate compiler generated dependencies of target map_odom_static_broadcaster[0m
+[0.780s] [100%] Built target map_odom_static_broadcaster
+[0.781s] Invoked command in '/home/emred/catkin_ws/build/map_odom_static_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/map_odom_static_broadcaster -- -j16 -l16
+[1.131s] Invoking command in '/home/emred/catkin_ws/build/map_odom_static_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/map_odom_static_broadcaster
+[1.143s] -- Install configuration: ""
+[1.144s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/lib/map_odom_static_broadcaster/map_odom_static_broadcaster
+[1.145s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/ament_index/resource_index/package_run_dependencies/map_odom_static_broadcaster
+[1.146s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/ament_index/resource_index/parent_prefix_path/map_odom_static_broadcaster
+[1.146s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/map_odom_static_broadcaster/environment/ament_prefix_path.sh
+[1.147s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/map_odom_static_broadcaster/environment/ament_prefix_path.dsv
+[1.147s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/map_odom_static_broadcaster/environment/path.sh
+[1.148s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/map_odom_static_broadcaster/environment/path.dsv
+[1.148s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/map_odom_static_broadcaster/local_setup.bash
+[1.148s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/map_odom_static_broadcaster/local_setup.sh
+[1.149s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/map_odom_static_broadcaster/local_setup.zsh
+[1.149s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/map_odom_static_broadcaster/local_setup.dsv
+[1.149s] -- Installing: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/map_odom_static_broadcaster/package.dsv
+[1.150s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/ament_index/resource_index/packages/map_odom_static_broadcaster
+[1.150s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/map_odom_static_broadcaster/cmake/map_odom_static_broadcasterConfig.cmake
+[1.150s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/map_odom_static_broadcaster/cmake/map_odom_static_broadcasterConfig-version.cmake
+[1.151s] -- Up-to-date: /home/emred/catkin_ws/install/map_odom_static_broadcaster/share/map_odom_static_broadcaster/package.xml
+[1.298s] Invoked command in '/home/emred/catkin_ws/build/map_odom_static_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/map_odom_static_broadcaster

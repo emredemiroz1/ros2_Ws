@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../../build/beetle_evaluation/beetle_evaluation.egg-info/PKG-INFO
+../../../build/beetle_evaluation/beetle_evaluation.egg-info/SOURCES.txt
+../../../build/beetle_evaluation/beetle_evaluation.egg-info/dependency_links.txt
+../../../build/beetle_evaluation/beetle_evaluation.egg-info/entry_points.txt
+../../../build/beetle_evaluation/beetle_evaluation.egg-info/requires.txt
+../../../build/beetle_evaluation/beetle_evaluation.egg-info/top_level.txt
+../../../build/beetle_evaluation/beetle_evaluation.egg-info/zip-safe
+beetle_evaluation/__init__.py
+beetle_evaluation/beetle_evaluation_manager.py
+resource/beetle_evaluation
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

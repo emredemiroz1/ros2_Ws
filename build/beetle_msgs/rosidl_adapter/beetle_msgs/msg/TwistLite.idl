@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from beetle_msgs/msg/TwistLite.msg
+// generated code does not contain a copyright notice
+
+
+module beetle_msgs {
+  module msg {
+    struct TwistLite {
+      float linear;
+
+      float angular;
+    };
+  };
+};

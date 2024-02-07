@@ -1,0 +1,3 @@
+/home/emred/catkin_ws/build/beetle_msgs/rosidl_adapter/beetle_msgs:msg/PoseLite.idl
+/home/emred/catkin_ws/build/beetle_msgs/rosidl_adapter/beetle_msgs:msg/TwistLite.idl
+/home/emred/catkin_ws/build/beetle_msgs/rosidl_adapter/beetle_msgs:msg/OdometryLite.idl

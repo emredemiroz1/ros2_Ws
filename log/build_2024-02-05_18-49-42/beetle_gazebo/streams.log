@@ -1,0 +1,55 @@
+[0.071s] Invoking command in '/home/emred/catkin_ws/build/beetle_gazebo': AMENT_PREFIX_PATH=/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:/home/emred/catkin_ws/install/gazebo_simulation:/home/emred/catkin_ws/install/four_ws_control:/home/emred/catkin_ws/install/traktor:/opt/ros/humble LD_LIBRARY_PATH=/home/emred/catkin_ws/install/ackermann_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/emred/catkin_ws/src/beetle/beetle_gazebo -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/install/beetle_gazebo
+[0.149s] -- The C compiler identification is GNU 11.4.0
+[0.216s] -- The CXX compiler identification is GNU 11.4.0
+[0.226s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.355s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.356s] -- Detecting C compile features
+[0.357s] -- Detecting C compile features - done
+[0.363s] -- Detecting CXX compiler ABI info
+[0.488s] -- Detecting CXX compiler ABI info - done
+[0.495s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.495s] -- Detecting CXX compile features
+[0.495s] -- Detecting CXX compile features - done
+[0.504s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.743s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.904s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.031s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.031s] -- Added test 'lint_cmake' to check CMake code style
+[1.032s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.034s] -- Added test 'xmllint' to check XML markup files
+[1.035s] -- Configuring done
+[1.038s] -- Generating done
+[1.039s] -- Build files have been written to: /home/emred/catkin_ws/build/beetle_gazebo
+[1.045s] Invoked command in '/home/emred/catkin_ws/build/beetle_gazebo' returned '0': AMENT_PREFIX_PATH=/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:/home/emred/catkin_ws/install/gazebo_simulation:/home/emred/catkin_ws/install/four_ws_control:/home/emred/catkin_ws/install/traktor:/opt/ros/humble LD_LIBRARY_PATH=/home/emred/catkin_ws/install/ackermann_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake /home/emred/catkin_ws/src/beetle/beetle_gazebo -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/install/beetle_gazebo
+[1.048s] Invoking command in '/home/emred/catkin_ws/build/beetle_gazebo': AMENT_PREFIX_PATH=/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:/home/emred/catkin_ws/install/gazebo_simulation:/home/emred/catkin_ws/install/four_ws_control:/home/emred/catkin_ws/install/traktor:/opt/ros/humble LD_LIBRARY_PATH=/home/emred/catkin_ws/install/ackermann_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/emred/catkin_ws/build/beetle_gazebo -- -j16 -l16
+[1.100s] Invoked command in '/home/emred/catkin_ws/build/beetle_gazebo' returned '0': AMENT_PREFIX_PATH=/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:/home/emred/catkin_ws/install/gazebo_simulation:/home/emred/catkin_ws/install/four_ws_control:/home/emred/catkin_ws/install/traktor:/opt/ros/humble LD_LIBRARY_PATH=/home/emred/catkin_ws/install/ackermann_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --build /home/emred/catkin_ws/build/beetle_gazebo -- -j16 -l16
+[1.137s] Invoking command in '/home/emred/catkin_ws/build/beetle_gazebo': AMENT_PREFIX_PATH=/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:/home/emred/catkin_ws/install/gazebo_simulation:/home/emred/catkin_ws/install/four_ws_control:/home/emred/catkin_ws/install/traktor:/opt/ros/humble LD_LIBRARY_PATH=/home/emred/catkin_ws/install/ackermann_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/emred/catkin_ws/build/beetle_gazebo
+[1.148s] -- Install configuration: ""
+[1.148s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/src
+[1.148s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/src/.gitkeep
+[1.148s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/launch
+[1.149s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/launch/robot.launch.py
+[1.149s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/rviz
+[1.149s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/rviz/default_view.rviz
+[1.149s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/config
+[1.149s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/config/ackermann_controller.yaml
+[1.149s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/worlds
+[1.149s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/worlds/ctu_college_of_tech_workshop.world
+[1.149s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/worlds/empty.world
+[1.149s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/ament_index/resource_index/package_run_dependencies/beetle_gazebo
+[1.150s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/ament_index/resource_index/parent_prefix_path/beetle_gazebo
+[1.150s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/environment/ament_prefix_path.sh
+[1.150s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/environment/ament_prefix_path.dsv
+[1.150s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/environment/path.sh
+[1.150s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/environment/path.dsv
+[1.150s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/local_setup.bash
+[1.156s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/local_setup.sh
+[1.156s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/local_setup.zsh
+[1.156s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/local_setup.dsv
+[1.157s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/package.dsv
+[1.157s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/ament_index/resource_index/packages/beetle_gazebo
+[1.157s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/cmake/beetle_gazeboConfig.cmake
+[1.157s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/cmake/beetle_gazeboConfig-version.cmake
+[1.158s] -- Installing: /home/emred/catkin_ws/install/beetle_gazebo/share/beetle_gazebo/package.xml
+[1.161s] Invoked command in '/home/emred/catkin_ws/build/beetle_gazebo' returned '0': AMENT_PREFIX_PATH=/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:/home/emred/catkin_ws/install/gazebo_simulation:/home/emred/catkin_ws/install/four_ws_control:/home/emred/catkin_ws/install/traktor:/opt/ros/humble LD_LIBRARY_PATH=/home/emred/catkin_ws/install/ackermann_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins /usr/bin/cmake --install /home/emred/catkin_ws/build/beetle_gazebo

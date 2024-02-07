@@ -1,0 +1,23 @@
+[0.738s] Invoking command in '/home/emred/catkin_ws/build/traktor': PYTHONPATH=/home/emred/catkin_ws/build/traktor/prefix_override:/home/emred/catkin_ws/install/traktor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emred/catkin_ws/build/traktor/build --no-deps install_data
+[0.983s] running develop
+[1.123s] running egg_info
+[1.123s] creating traktor.egg-info
+[1.123s] writing traktor.egg-info/PKG-INFO
+[1.123s] writing dependency_links to traktor.egg-info/dependency_links.txt
+[1.123s] writing entry points to traktor.egg-info/entry_points.txt
+[1.124s] writing requirements to traktor.egg-info/requires.txt
+[1.124s] writing top-level names to traktor.egg-info/top_level.txt
+[1.124s] writing manifest file 'traktor.egg-info/SOURCES.txt'
+[1.124s] reading manifest file 'traktor.egg-info/SOURCES.txt'
+[1.125s] writing manifest file 'traktor.egg-info/SOURCES.txt'
+[1.126s] running build_ext
+[1.126s] Creating /home/emred/catkin_ws/install/traktor/lib/python3.10/site-packages/traktor.egg-link (link to .)
+[1.127s] 
+[1.127s] Installed /home/emred/catkin_ws/build/traktor
+[1.127s] running install_data
+[1.127s] creating /home/emred/catkin_ws/install/traktor/share/ament_index
+[1.127s] creating /home/emred/catkin_ws/install/traktor/share/ament_index/resource_index
+[1.127s] creating /home/emred/catkin_ws/install/traktor/share/ament_index/resource_index/packages
+[1.128s] copying resource/traktor -> /home/emred/catkin_ws/install/traktor/share/ament_index/resource_index/packages
+[1.128s] copying package.xml -> /home/emred/catkin_ws/install/traktor/share/traktor
+[1.171s] Invoked command in '/home/emred/catkin_ws/build/traktor' returned '0': PYTHONPATH=/home/emred/catkin_ws/build/traktor/prefix_override:/home/emred/catkin_ws/install/traktor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emred/catkin_ws/build/traktor/build --no-deps install_data

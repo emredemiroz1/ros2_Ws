@@ -1,0 +1,38 @@
+[1.392s] Invoking command in '/home/emred/catkin_ws/src/beetle/beetle_evaluation': PYTHONPATH=/home/emred/catkin_ws/build/beetle_evaluation/prefix_override:/home/emred/catkin_ws/install/beetle_evaluation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/beetle_evaluation build --build-base /home/emred/catkin_ws/build/beetle_evaluation/build install --record /home/emred/catkin_ws/build/beetle_evaluation/install.log --single-version-externally-managed
+[1.620s] running egg_info
+[1.620s] creating ../../../build/beetle_evaluation/beetle_evaluation.egg-info
+[1.620s] writing ../../../build/beetle_evaluation/beetle_evaluation.egg-info/PKG-INFO
+[1.621s] writing dependency_links to ../../../build/beetle_evaluation/beetle_evaluation.egg-info/dependency_links.txt
+[1.621s] writing entry points to ../../../build/beetle_evaluation/beetle_evaluation.egg-info/entry_points.txt
+[1.621s] writing requirements to ../../../build/beetle_evaluation/beetle_evaluation.egg-info/requires.txt
+[1.621s] writing top-level names to ../../../build/beetle_evaluation/beetle_evaluation.egg-info/top_level.txt
+[1.621s] writing manifest file '../../../build/beetle_evaluation/beetle_evaluation.egg-info/SOURCES.txt'
+[1.624s] reading manifest file '../../../build/beetle_evaluation/beetle_evaluation.egg-info/SOURCES.txt'
+[1.624s] adding license file 'LICENSE'
+[1.624s] writing manifest file '../../../build/beetle_evaluation/beetle_evaluation.egg-info/SOURCES.txt'
+[1.624s] running build
+[1.624s] running build_py
+[1.625s] creating /home/emred/catkin_ws/build/beetle_evaluation/build
+[1.625s] creating /home/emred/catkin_ws/build/beetle_evaluation/build/lib
+[1.625s] creating /home/emred/catkin_ws/build/beetle_evaluation/build/lib/beetle_evaluation
+[1.625s] copying beetle_evaluation/__init__.py -> /home/emred/catkin_ws/build/beetle_evaluation/build/lib/beetle_evaluation
+[1.625s] copying beetle_evaluation/beetle_evaluation_manager.py -> /home/emred/catkin_ws/build/beetle_evaluation/build/lib/beetle_evaluation
+[1.625s] running install
+[1.625s] running install_lib
+[1.626s] creating /home/emred/catkin_ws/install/beetle_evaluation/lib/python3.10/site-packages/beetle_evaluation
+[1.626s] copying /home/emred/catkin_ws/build/beetle_evaluation/build/lib/beetle_evaluation/__init__.py -> /home/emred/catkin_ws/install/beetle_evaluation/lib/python3.10/site-packages/beetle_evaluation
+[1.627s] copying /home/emred/catkin_ws/build/beetle_evaluation/build/lib/beetle_evaluation/beetle_evaluation_manager.py -> /home/emred/catkin_ws/install/beetle_evaluation/lib/python3.10/site-packages/beetle_evaluation
+[1.627s] byte-compiling /home/emred/catkin_ws/install/beetle_evaluation/lib/python3.10/site-packages/beetle_evaluation/__init__.py to __init__.cpython-310.pyc
+[1.627s] byte-compiling /home/emred/catkin_ws/install/beetle_evaluation/lib/python3.10/site-packages/beetle_evaluation/beetle_evaluation_manager.py to beetle_evaluation_manager.cpython-310.pyc
+[1.629s] running install_data
+[1.630s] creating /home/emred/catkin_ws/install/beetle_evaluation/share/ament_index
+[1.630s] creating /home/emred/catkin_ws/install/beetle_evaluation/share/ament_index/resource_index
+[1.630s] creating /home/emred/catkin_ws/install/beetle_evaluation/share/ament_index/resource_index/packages
+[1.630s] copying resource/beetle_evaluation -> /home/emred/catkin_ws/install/beetle_evaluation/share/ament_index/resource_index/packages
+[1.630s] copying package.xml -> /home/emred/catkin_ws/install/beetle_evaluation/share/beetle_evaluation
+[1.630s] running install_egg_info
+[1.632s] Copying ../../../build/beetle_evaluation/beetle_evaluation.egg-info to /home/emred/catkin_ws/install/beetle_evaluation/lib/python3.10/site-packages/beetle_evaluation-0.0.0-py3.10.egg-info
+[1.632s] running install_scripts
+[1.651s] Installing beetle_evaluation_manager script to /home/emred/catkin_ws/install/beetle_evaluation/lib/beetle_evaluation
+[1.651s] writing list of installed files to '/home/emred/catkin_ws/build/beetle_evaluation/install.log'
+[1.750s] Invoked command in '/home/emred/catkin_ws/src/beetle/beetle_evaluation' returned '0': PYTHONPATH=/home/emred/catkin_ws/build/beetle_evaluation/prefix_override:/home/emred/catkin_ws/install/beetle_evaluation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/beetle_evaluation build --build-base /home/emred/catkin_ws/build/beetle_evaluation/build install --record /home/emred/catkin_ws/build/beetle_evaluation/install.log --single-version-externally-managed

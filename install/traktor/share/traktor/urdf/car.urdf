@@ -1,0 +1,498 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="moveon">
+  
+
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <mass value="10"/>
+    <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+  </inertial>
+  <visual name="">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <box size="2.5 1.5 1"/>
+    </geometry>
+    <material name="">
+      <color rgba="1.0 0.0 0.0 1.0"/>
+      <texture filename=""/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <box size="2.5 1.5 1"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="koltuk">
+  <inertial>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <mass value="1"/>
+    <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+  </inertial>
+  <visual name="">
+    <origin xyz="0 0 0 " rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <box size="1.5 1.5 0.5"/>
+    </geometry>
+    <material name="">
+      <color rgba="1.0 0.0 0.0 1.0"/>
+      <texture filename=""/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="1 1.5 0.5" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <box size="1.5 1.5 0.5"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="base_link_to_koltuk" type="fixed">
+  <parent link="base_link"/>
+  <child link="koltuk"/>
+  <origin xyz="-0.5 0 0.75" rpy="0 0 0"/>
+  <axis xyz="0 0 0"/>
+</joint>
+
+
+<!-- SAĞ ÖN TEKER  -->
+
+<link name="sag_on_dif"> <!-- SAĞ TEKER DİFERANSİYEL -->
+  <visual>
+    <geometry>
+      <cylinder length="0.05" radius="0.02"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+</link>
+
+<joint name="sag_on_dif_joint" type="revolute"> <!-- SAĞ TEKER DİFERANSİYEL BASE LİNKİ-->
+  <parent link="base_link"/>
+  <child link="sag_on_dif"/>
+  <origin xyz="0.75 -0.85 -0.5" rpy="1.5707 0 0"/>
+  <axis xyz="0 1 0"/>
+  <limit effort="100" velocity="1" lower="-1" upper="1"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+
+<link name="sag_on_teker"> <!-- SAĞ TEKER -->
+  <inertial>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <mass value="10"/>
+    <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+  </inertial>
+  <visual name="">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <cylinder length="0.20" radius="0.25"/>
+    </geometry>
+    <material name="">
+      <color rgba="0.0 0.0 0.0 1.0"/>
+      <texture filename=""/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <cylinder length="0.3" radius="0.25"/>
+    </geometry>
+  </collision>
+</link>
+
+
+<joint name="sag_on_dif_sag_on_teker" type="continuous"> <!-- SAĞ TEKER DİFERANSİYEL VE SAĞ TEKER JOİNTİ-->
+  <parent link="sag_on_dif"/>
+  <child link="sag_on_teker"/>
+  <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  <axis xyz="0 0 -1"/>
+  <limit effort="100" velocity="100"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+<!-- SAĞ ARKA TEKERLEKLER -->
+
+<link name="sag_arka_dif"> <!-- SAĞ ARKA TEKER DİFERANSİYEL -->
+  <visual>
+    <geometry>
+      <cylinder length="0.05" radius="0.02"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+</link>
+
+<joint name="sag_arka_dif_joint" type="revolute"> <!-- SAĞ ARKA TEKER DİFERANSİYEL BASE LİNKİ-->
+  <parent link="base_link"/>
+  <child link="sag_arka_dif"/>
+  <origin xyz="-1.25 -0.85 -0.5" rpy="1.5707 0 0"/>
+  <axis xyz="0 1 0"/>
+  <limit effort="100" velocity="1" lower="-1" upper="1"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+
+<link name="sag_arka"> <!-- SAĞ ARKA TEKER -->
+  <inertial>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <mass value="10"/>
+    <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+  </inertial>
+  <visual name="">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <cylinder length="0.20" radius="0.4"/>
+    </geometry>
+    <material name="">
+      <color rgba="0.0 0.0 0.0 1.0"/>
+      <texture filename=""/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <cylinder length="0.3" radius="0.4"/>
+    </geometry>
+  </collision>
+</link>
+
+
+<joint name="sag_arka_dif_sag_arka_teker" type="continuous"> <!-- SAĞ ARKA TEKER DİFERANSİYEL VE SAĞ ARKA TEKER JOİNTİ-->
+  <parent link="sag_arka_dif"/>
+  <child link="sag_arka"/>
+  <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  <axis xyz="0 0 -1"/>
+  <limit effort="100" velocity="100"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+
+<!-- SOL ÖN TEKERLEKLER -->
+
+<link name="sol_on_dif"> <!-- SOL ÖN TEKER DİFERANSİYEL -->
+  <visual>
+    <geometry>
+      <cylinder length="0.05" radius="0.02"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+</link>
+
+<joint name="sol_on_dif_joint" type="revolute"> <!-- SOL ÖN TEKER DİFERANSİYEL BASE LİNKİ-->
+  <parent link="base_link"/>
+  <child link="sol_on_dif"/>
+  <origin xyz="0.75 0.85 -0.5" rpy="1.5707 0 0"/>
+  <axis xyz="0 1 0"/>
+  <limit effort="100" velocity="1" lower="-1" upper="1"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+
+<link name="sol_on"> <!-- SOL ÖN TEKER -->
+  <inertial>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <mass value="10"/>
+    <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+  </inertial>
+  <visual name="">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <cylinder length="0.20" radius="0.25"/>
+    </geometry>
+    <material name="">
+      <color rgba="0.0 0.0 0.0 1.0"/>
+      <texture filename=""/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <cylinder length="0.3" radius="0.25"/>
+    </geometry>
+  </collision>
+</link>
+
+
+<joint name="sol_on_dif_sol_on_teker" type="continuous"> <!-- SOL ÖN TEKER DİFERANSİYEL VE SOL ÖN TEKER JOİNTİ-->
+  <parent link="sol_on_dif"/>
+  <child link="sol_on"/>
+  <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  <axis xyz="0 0 -1"/>
+  <limit effort="100" velocity="100"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+
+<!-- SOL ARKA TEKERLEKLER -->
+
+<link name="sol_arka_dif"> <!-- SOL ARKA TEKER DİFERANSİYEL -->
+  <visual>
+    <geometry>
+      <cylinder length="0.05" radius="0.02"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+</link>
+
+<joint name="sol_arka_dif_joint" type="revolute"> <!-- SOL ARKA TEKER DİFERANSİYEL BASE LİNKİ-->
+  <parent link="base_link"/>
+  <child link="sol_arka_dif"/>
+  <origin xyz="-1.25 0.85 -0.5" rpy="1.5707 0 0"/>
+  <axis xyz="0 1 0"/>
+  <limit effort="100" velocity="1" lower="-1" upper="1"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+
+<link name="sol_arka"> <!-- SOL ARKA TEKER -->
+  <inertial>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <mass value="10"/>
+    <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+  </inertial>
+  <visual name="">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <cylinder length="0.20" radius="0.4"/>
+    </geometry>
+    <material name="">
+      <color rgba="0.0 0.0 0.0 1.0"/>
+      <texture filename=""/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <cylinder length="0.3" radius="0.4"/>
+    </geometry>
+  </collision>
+</link>
+
+
+<joint name="sol_arka_dif_sol_arka_teker" type="continuous"> <!-- SOL ARKA TEKER DİFERANSİYEL VE SOL ARKA TEKER JOİNTİ-->
+  <parent link="sol_arka_dif"/>
+  <child link="sol_arka"/>
+  <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  <axis xyz="0 0 -1"/>
+  <limit effort="100" velocity="100"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+<!-- GPS BÖLÜMÜ  -->
+ 
+<link name="gps_link">
+  <inertial>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <mass value="0.1"/>
+    <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+  </inertial>
+</link>
+
+<joint name="gps_joint" type="fixed">
+  <parent link="base_link"/>
+  <child link="gps_link"/>
+  <origin xyz="0 0 1" rpy="0 0 0"/>
+</joint>
+
+  <gazebo reference="gps_link">
+    <sensor name="gps_sensor" type="gps">
+      <always_on>true</always_on>
+      <update_rate>1.0</update_rate>
+      <plugin name="gps_controller" filename="libgazebo_ros_gps_sensor.so">
+        <ros>
+          <!-- <namespace>/br</namespace> -->
+          <remapping>gps_controller/out:=gps</remapping>
+        </ros>
+        <frame_name>gps_link</frame_name>
+        <offset>0 0 0</offset>
+        <drift>0.001 0.001 0.001</drift>
+        <gaussianNoise>0.05 0.05 0.05</gaussianNoise>
+        <velocityDrift>0.001 0.001 0.001</velocityDrift>
+        <velocityGaussianNoise>0.5 0.5 0.5</velocityGaussianNoise>
+      </plugin>
+    </sensor>
+    <material>Gazebo/Turquoise</material>
+  </gazebo>
+
+<!-- 
+ <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+    
+    <joint name="sag_on_dif_joint">
+      <command_interface name="velocity">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sag_on_dif_sag_on_teker">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sag_arka_dif_joint">
+      <command_interface name="velocity">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sag_arka_dif_sag_arka_teker">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+
+    <joint name="sol_on_dif_joint">
+      <command_interface name="velocity">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sol_on_dif_sol_on_teker">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sol_arka_dif_joint">
+      <command_interface name="velocity">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sol_arka_dif_sol_arka_teker">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+
+
+  </ros2_control>
+
+
+ -->
+
+
+
+
+
+  <ros2_control name="GazeboSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+    
+    <joint name="sag_on_dif_sag_on_teker">
+      <command_interface name="velocity">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sag_arka_dif_sag_arka_teker">
+      <command_interface name="velocity">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sol_on_dif_sol_on_teker">
+      <command_interface name="velocity">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sol_arka_dif_sol_arka_teker">
+      <command_interface name="velocity">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sag_on_dif_joint">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sag_arka_dif_joint">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sol_on_dif_joint">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+
+    <joint name="sol_arka_dif_joint">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+      <state_interface name="velocity"/>
+      <state_interface name="effort"/>
+    </joint>
+  </ros2_control>
+
+</robot>
+

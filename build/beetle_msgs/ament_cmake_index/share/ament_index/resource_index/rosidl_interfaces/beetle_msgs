@@ -1,0 +1,6 @@
+msg/OdometryLite.idl
+msg/OdometryLite.msg
+msg/PoseLite.idl
+msg/PoseLite.msg
+msg/TwistLite.idl
+msg/TwistLite.msg

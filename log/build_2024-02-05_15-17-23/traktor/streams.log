@@ -1,0 +1,16 @@
+[0.701s] Invoking command in '/home/emred/catkin_ws/build/traktor': PYTHONPATH=/home/emred/catkin_ws/build/traktor/prefix_override:/home/emred/catkin_ws/install/traktor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emred/catkin_ws/build/traktor/build --no-deps install_data
+[0.956s] running develop
+[1.098s] running egg_info
+[1.098s] writing traktor.egg-info/PKG-INFO
+[1.098s] writing dependency_links to traktor.egg-info/dependency_links.txt
+[1.098s] writing entry points to traktor.egg-info/entry_points.txt
+[1.098s] writing requirements to traktor.egg-info/requires.txt
+[1.098s] writing top-level names to traktor.egg-info/top_level.txt
+[1.100s] reading manifest file 'traktor.egg-info/SOURCES.txt'
+[1.100s] writing manifest file 'traktor.egg-info/SOURCES.txt'
+[1.101s] running build_ext
+[1.101s] Creating /home/emred/catkin_ws/install/traktor/lib/python3.10/site-packages/traktor.egg-link (link to .)
+[1.102s] 
+[1.102s] Installed /home/emred/catkin_ws/build/traktor
+[1.102s] running install_data
+[1.140s] Invoked command in '/home/emred/catkin_ws/build/traktor' returned '0': PYTHONPATH=/home/emred/catkin_ws/build/traktor/prefix_override:/home/emred/catkin_ws/install/traktor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emred/catkin_ws/build/traktor/build --no-deps install_data

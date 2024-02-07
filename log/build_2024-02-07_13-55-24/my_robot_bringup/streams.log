@@ -1,0 +1,45 @@
+[0.300s] Invoking command in '/home/emred/catkin_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/emred/catkin_ws/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/my_robot_description:/home/emred/catkin_ws/install/beetle_navigation2:/home/emred/catkin_ws/install/map_odom_static_broadcaster:/home/emred/catkin_ws/install/gazebo_simulation:/home/emred/catkin_ws/install/four_ws_control:/home/emred/catkin_ws/install/beetle_msg_forwarder:/home/emred/catkin_ws/install/beetle_msgs:/home/emred/catkin_ws/install/beetle_gazebo:/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/install/my_robot_bringup
+[0.386s] -- The C compiler identification is GNU 11.4.0
+[0.449s] -- The CXX compiler identification is GNU 11.4.0
+[0.459s] -- Detecting C compiler ABI info
+[0.547s] -- Detecting C compiler ABI info - done
+[0.554s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.555s] -- Detecting C compile features
+[0.555s] -- Detecting C compile features - done
+[0.557s] -- Detecting CXX compiler ABI info
+[0.648s] -- Detecting CXX compiler ABI info - done
+[0.655s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.655s] -- Detecting CXX compile features
+[0.656s] -- Detecting CXX compile features - done
+[0.659s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.836s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.998s] -- Configuring done
+[1.001s] -- Generating done
+[1.002s] -- Build files have been written to: /home/emred/catkin_ws/build/my_robot_bringup
+[1.047s] Invoked command in '/home/emred/catkin_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/emred/catkin_ws/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/my_robot_description:/home/emred/catkin_ws/install/beetle_navigation2:/home/emred/catkin_ws/install/map_odom_static_broadcaster:/home/emred/catkin_ws/install/gazebo_simulation:/home/emred/catkin_ws/install/four_ws_control:/home/emred/catkin_ws/install/beetle_msg_forwarder:/home/emred/catkin_ws/install/beetle_msgs:/home/emred/catkin_ws/install/beetle_gazebo:/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/my_robot_bringup -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/install/my_robot_bringup
+[1.049s] Invoking command in '/home/emred/catkin_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/emred/catkin_ws/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/my_robot_description:/home/emred/catkin_ws/install/beetle_navigation2:/home/emred/catkin_ws/install/map_odom_static_broadcaster:/home/emred/catkin_ws/install/gazebo_simulation:/home/emred/catkin_ws/install/four_ws_control:/home/emred/catkin_ws/install/beetle_msg_forwarder:/home/emred/catkin_ws/install/beetle_msgs:/home/emred/catkin_ws/install/beetle_gazebo:/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/my_robot_bringup -- -j16 -l16
+[1.097s] Invoked command in '/home/emred/catkin_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/emred/catkin_ws/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/my_robot_description:/home/emred/catkin_ws/install/beetle_navigation2:/home/emred/catkin_ws/install/map_odom_static_broadcaster:/home/emred/catkin_ws/install/gazebo_simulation:/home/emred/catkin_ws/install/four_ws_control:/home/emred/catkin_ws/install/beetle_msg_forwarder:/home/emred/catkin_ws/install/beetle_msgs:/home/emred/catkin_ws/install/beetle_gazebo:/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --build /home/emred/catkin_ws/build/my_robot_bringup -- -j16 -l16
+[1.133s] Invoking command in '/home/emred/catkin_ws/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/emred/catkin_ws/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/my_robot_description:/home/emred/catkin_ws/install/beetle_navigation2:/home/emred/catkin_ws/install/map_odom_static_broadcaster:/home/emred/catkin_ws/install/gazebo_simulation:/home/emred/catkin_ws/install/four_ws_control:/home/emred/catkin_ws/install/beetle_msg_forwarder:/home/emred/catkin_ws/install/beetle_msgs:/home/emred/catkin_ws/install/beetle_gazebo:/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/my_robot_bringup
+[1.142s] -- Install configuration: ""
+[1.142s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup//launch
+[1.142s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup//launch/my_robot_gazebo.launch.xml
+[1.142s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup//rviz
+[1.143s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup//rviz/urdf_config.rviz
+[1.143s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup//worlds
+[1.143s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup//worlds/test_world.world
+[1.143s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
+[1.143s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
+[1.143s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.sh
+[1.143s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup/environment/ament_prefix_path.dsv
+[1.144s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.sh
+[1.144s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup/environment/path.dsv
+[1.144s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.bash
+[1.144s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.sh
+[1.144s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.zsh
+[1.144s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup/local_setup.dsv
+[1.144s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup/package.dsv
+[1.144s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/ament_index/resource_index/packages/my_robot_bringup
+[1.145s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig.cmake
+[1.145s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup/cmake/my_robot_bringupConfig-version.cmake
+[1.145s] -- Installing: /home/emred/catkin_ws/install/my_robot_bringup/share/my_robot_bringup/package.xml
+[1.147s] Invoked command in '/home/emred/catkin_ws/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/emred/catkin_ws/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/catkin_ws/install/my_robot_description:/home/emred/catkin_ws/install/beetle_navigation2:/home/emred/catkin_ws/install/map_odom_static_broadcaster:/home/emred/catkin_ws/install/gazebo_simulation:/home/emred/catkin_ws/install/four_ws_control:/home/emred/catkin_ws/install/beetle_msg_forwarder:/home/emred/catkin_ws/install/beetle_msgs:/home/emred/catkin_ws/install/beetle_gazebo:/home/emred/catkin_ws/install/beetle_description:/home/emred/catkin_ws/install/ackermann_drive_controller:/home/emred/catkin_ws/install/traktor:/home/emred/catkin_ws/install/beetle_evaluation:/opt/ros/humble /usr/bin/cmake --install /home/emred/catkin_ws/build/my_robot_bringup

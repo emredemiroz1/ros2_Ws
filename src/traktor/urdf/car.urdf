@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="moveon">
+  
+
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <mass value="10"/>
+    <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+  </inertial>
+  <visual name="">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <box size="2.5 1.5 1"/>
+    </geometry>
+    <material name="">
+      <color rgba="1.0 0.0 0.0 1.0"/>
+      <texture filename=""/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <box size="2.5 1.5 1"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="koltuk">
+  <inertial>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <mass value="1"/>
+    <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+  </inertial>
+  <visual name="">
+    <origin xyz="0 0 0 " rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <box size="1.5 1.5 0.5"/>
+    </geometry>
+    <material name="">
+      <color rgba="1.0 0.0 0.0 1.0"/>
+      <texture filename=""/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="1 1.5 0.5" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <box size="1.5 1.5 0.5"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="base_link_to_koltuk" type="fixed">
+  <parent link="base_link"/>
+  <child link="koltuk"/>
+  <origin xyz="-0.5 0 0.75" rpy="0 0 0"/>
+  <axis xyz="0 0 0"/>
+</joint>
+
+
+
+
+
+
+
+
+
+
+
+<!-- SAĞ TEKERLEKLER -->
+
+<link name="sag_dif"> <!-- SAĞ TEKER DİFERANSİYEL -->
+  <visual>
+    <geometry>
+      <cylinder length="0.05" radius="0.02"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+</link>
+
+<joint name="sag_dif_joint" type="revolute"> <!-- SAĞ TEKER DİFERANSİYEL BASE LİNKİ-->
+  <parent link="base_link"/>
+  <child link="sag_dif"/>
+  <origin xyz="1.25 -0.85 -0.5" rpy="1.5707 0 0"/>
+  <axis xyz="0 1 0"/>
+  <limit effort="100" velocity="1" lower="-1" upper="1"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+
+<link name="sag_on"> <!-- SAĞ TEKER -->
+  <inertial>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <mass value="10"/>
+    <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+  </inertial>
+  <visual name="">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <cylinder length="0.20" radius="0.25"/>
+    </geometry>
+    <material name="">
+      <color rgba="0.0 0.0 0.0 1.0"/>
+      <texture filename=""/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <cylinder length="0.3" radius="0.25"/>
+    </geometry>
+  </collision>
+</link>
+
+
+<joint name="sag_dif_sag_teker" type="continuous"> <!-- SAĞ TEKER DİFERANSİYEL VE SAĞ TEKER JOİNTİ-->
+  <parent link="sag_dif"/>
+  <child link="sag_on"/>
+  <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  <axis xyz="0 0 -1"/>
+  <limit effort="100" velocity="100"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+
+
+<link name="left_rear_steering_link"> <!-- SAĞ TEKER DİFERANSİYEL -->
+  <visual>
+    <geometry>
+      <cylinder length="0.05" radius="0.02"/>
+    </geometry>
+    <material name="black"/>
+  </visual>
+</link>
+
+<joint name="left_rear_steering_joint" type="revolute"> <!-- SAĞ TEKER DİFERANSİYEL BASE LİNKİ-->
+  <parent link="base_link"/>
+  <child link="left_rear_steering_link"/>
+  <origin xyz="1.25 -0.85 -0.5" rpy="1.5707 0 0"/>
+  <axis xyz="0 1 0"/>
+  <limit effort="100" velocity="1" lower="-1" upper="1"/>
+  <dynamics damping="0.0" friction="0.0"/>
+</joint>
+
+
+
+<link name="left_rear_wheel">  <!-- SAĞ ARKA TEKER LİNKİ-->
+  <inertial>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <mass value="10"/>
+    <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+  </inertial>
+  <visual name="">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <cylinder length="0.20" radius="0.5"/>
+    </geometry>
+    <material name="">
+      <color rgba="0.0 0.0 0.0 1.0"/>
+      <texture filename=""/>
+    </material>
+  </visual>
+  <collision>
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/> <!--  <mesh filename="package://your_package/meshes/your_mesh.stl"/> -->
+    <geometry>
+      <cylinder length="0.3" radius="0.5"/>
+    </geometry>
+  </collision>
+</link>
+
+ 
+<joint name="l_r_w_j" type="continuous"> <!-- SAĞ ARKA TEKER BASE JOİNTİ -->
+    <parent link="right_rear_steering_link"/>
+    <child link="left_rear_wheel"/>
+    <origin xyz="-1.25 -0.85 -0.5" rpy="-1.5707 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="100" velocity="100"/>
+    <dynamics damping="0.0" friction="0.0"/>
+</joint> 
+</robot>

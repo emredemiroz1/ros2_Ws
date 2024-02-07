@@ -1,0 +1,2 @@
+[0.543s] Invoking command in '/home/emred/catkin_ws/src/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/four_ws_control -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/src/install/four_ws_control
+[0.610s] -- The C compiler identification is GNU 11.4.0

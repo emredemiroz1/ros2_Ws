@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating traktor.egg-info
+writing traktor.egg-info/PKG-INFO
+writing dependency_links to traktor.egg-info/dependency_links.txt
+writing entry points to traktor.egg-info/entry_points.txt
+writing requirements to traktor.egg-info/requires.txt
+writing top-level names to traktor.egg-info/top_level.txt
+writing manifest file 'traktor.egg-info/SOURCES.txt'
+reading manifest file 'traktor.egg-info/SOURCES.txt'
+writing manifest file 'traktor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/emred/catkin_ws/install/traktor/lib/python3.10/site-packages/traktor.egg-link (link to .)
+
+Installed /home/emred/catkin_ws/build/traktor
+running install_data
+creating /home/emred/catkin_ws/install/traktor/share/ament_index
+creating /home/emred/catkin_ws/install/traktor/share/ament_index/resource_index
+creating /home/emred/catkin_ws/install/traktor/share/ament_index/resource_index/packages
+copying resource/traktor -> /home/emred/catkin_ws/install/traktor/share/ament_index/resource_index/packages
+copying package.xml -> /home/emred/catkin_ws/install/traktor/share/traktor

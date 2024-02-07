@@ -1,0 +1,14 @@
+The system is: Linux - 6.5.0-15-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/emred/catkin_ws/src/build/gazebo_simulation/CMakeFiles/3.22.1/CompilerIdC/a.out"
+

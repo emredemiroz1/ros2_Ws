@@ -1,0 +1,2 @@
+source;share/beetle_msg_forwarder/environment/ament_prefix_path.sh
+source;share/beetle_msg_forwarder/environment/path.sh

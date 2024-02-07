@@ -1,0 +1,8 @@
+{
+  "package_name": "beetle_msgs",
+  "non_idl_tuples": [
+    "/home/emred/catkin_ws/src/beetle/beetle_msgs:msg/PoseLite.msg",
+    "/home/emred/catkin_ws/src/beetle/beetle_msgs:msg/TwistLite.msg",
+    "/home/emred/catkin_ws/src/beetle/beetle_msgs:msg/OdometryLite.msg"
+  ]
+}

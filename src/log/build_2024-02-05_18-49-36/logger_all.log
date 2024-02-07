@@ -1,0 +1,346 @@
+[0.856s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.856s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f94bfbe3460>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f94bfbe3130>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f94bfbe3130>>)
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.894s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.894s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/emred/catkin_ws/src'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extensions ['ignore', 'ignore_ament_install']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extension 'ignore'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extension 'ros'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extensions ['cmake', 'python']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extension 'cmake'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extension 'python'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extensions ['python_setup_py']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle) by extension 'python_setup_py'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/ackermann_drive_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/ackermann_drive_controller) by extension 'ignore'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/ackermann_drive_controller) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/ackermann_drive_controller) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/ackermann_drive_controller) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/ackermann_drive_controller) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/ackermann_drive_controller) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/ackermann_drive_controller) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/ackermann_drive_controller) by extension 'ros'
+[0.907s] DEBUG:colcon.colcon_core.package_identification:Package 'beetle/ackermann_drive_controller' with type 'ros.ament_cmake' and name 'ackermann_drive_controller'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_description) by extensions ['ignore', 'ignore_ament_install']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_description) by extension 'ignore'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_description) by extension 'ignore_ament_install'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_description) by extensions ['colcon_pkg']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_description) by extension 'colcon_pkg'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_description) by extensions ['colcon_meta']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_description) by extension 'colcon_meta'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_description) by extensions ['ros']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_description) by extension 'ros'
+[0.908s] DEBUG:colcon.colcon_core.package_identification:Package 'beetle/beetle_description' with type 'ros.ament_cmake' and name 'beetle_description'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_evaluation) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_evaluation) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_evaluation) by extension 'ignore_ament_install'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_evaluation) by extensions ['colcon_pkg']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_evaluation) by extension 'colcon_pkg'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_evaluation) by extensions ['colcon_meta']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_evaluation) by extension 'colcon_meta'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_evaluation) by extensions ['ros']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_evaluation) by extension 'ros'
+[0.908s] DEBUG:colcon.colcon_core.package_identification:Package 'beetle/beetle_evaluation' with type 'ros.ament_python' and name 'beetle_evaluation'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_gazebo) by extension 'ignore'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_gazebo) by extension 'ignore_ament_install'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_gazebo) by extensions ['colcon_pkg']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_gazebo) by extension 'colcon_pkg'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_gazebo) by extensions ['colcon_meta']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_gazebo) by extension 'colcon_meta'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_gazebo) by extensions ['ros']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_gazebo) by extension 'ros'
+[0.909s] DEBUG:colcon.colcon_core.package_identification:Package 'beetle/beetle_gazebo' with type 'ros.ament_cmake' and name 'beetle_gazebo'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msg_forwarder) by extensions ['ignore', 'ignore_ament_install']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msg_forwarder) by extension 'ignore'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msg_forwarder) by extension 'ignore_ament_install'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msg_forwarder) by extensions ['colcon_pkg']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msg_forwarder) by extension 'colcon_pkg'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msg_forwarder) by extensions ['colcon_meta']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msg_forwarder) by extension 'colcon_meta'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msg_forwarder) by extensions ['ros']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msg_forwarder) by extension 'ros'
+[0.910s] DEBUG:colcon.colcon_core.package_identification:Package 'beetle/beetle_msg_forwarder' with type 'ros.ament_cmake' and name 'beetle_msg_forwarder'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msgs) by extension 'ignore'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msgs) by extension 'ignore_ament_install'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msgs) by extensions ['colcon_pkg']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msgs) by extension 'colcon_pkg'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msgs) by extensions ['colcon_meta']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msgs) by extension 'colcon_meta'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msgs) by extensions ['ros']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_msgs) by extension 'ros'
+[0.911s] DEBUG:colcon.colcon_core.package_identification:Package 'beetle/beetle_msgs' with type 'ros.ament_cmake' and name 'beetle_msgs'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_navigation2) by extension 'ignore'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_navigation2) by extension 'ignore_ament_install'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_navigation2) by extensions ['colcon_pkg']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_navigation2) by extension 'colcon_pkg'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_navigation2) by extensions ['colcon_meta']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_navigation2) by extension 'colcon_meta'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_navigation2) by extensions ['ros']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/beetle_navigation2) by extension 'ros'
+[0.912s] DEBUG:colcon.colcon_core.package_identification:Package 'beetle/beetle_navigation2' with type 'ros.ament_cmake' and name 'beetle_navigation2'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/map_odom_static_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/map_odom_static_broadcaster) by extension 'ignore'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/map_odom_static_broadcaster) by extension 'ignore_ament_install'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/map_odom_static_broadcaster) by extensions ['colcon_pkg']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/map_odom_static_broadcaster) by extension 'colcon_pkg'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/map_odom_static_broadcaster) by extensions ['colcon_meta']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/map_odom_static_broadcaster) by extension 'colcon_meta'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/map_odom_static_broadcaster) by extensions ['ros']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(beetle/map_odom_static_broadcaster) by extension 'ros'
+[0.912s] DEBUG:colcon.colcon_core.package_identification:Package 'beetle/map_odom_static_broadcaster' with type 'ros.ament_cmake' and name 'map_odom_static_broadcaster'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(four_ws_control) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(four_ws_control) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(four_ws_control) by extension 'ignore_ament_install'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(four_ws_control) by extensions ['colcon_pkg']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(four_ws_control) by extension 'colcon_pkg'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(four_ws_control) by extensions ['colcon_meta']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(four_ws_control) by extension 'colcon_meta'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(four_ws_control) by extensions ['ros']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(four_ws_control) by extension 'ros'
+[0.913s] DEBUG:colcon.colcon_core.package_identification:Package 'four_ws_control' with type 'ros.ament_cmake' and name 'four_ws_control'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_simulation) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_simulation) by extension 'ignore_ament_install'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_simulation) by extensions ['colcon_pkg']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_simulation) by extension 'colcon_pkg'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_simulation) by extensions ['colcon_meta']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_simulation) by extension 'colcon_meta'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_simulation) by extensions ['ros']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(gazebo_simulation) by extension 'ros'
+[0.914s] DEBUG:colcon.colcon_core.package_identification:Package 'gazebo_simulation' with type 'ros.ament_cmake' and name 'gazebo_simulation'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(traktor) by extensions ['ignore', 'ignore_ament_install']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(traktor) by extension 'ignore'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(traktor) by extension 'ignore_ament_install'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(traktor) by extensions ['colcon_pkg']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(traktor) by extension 'colcon_pkg'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(traktor) by extensions ['colcon_meta']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(traktor) by extension 'colcon_meta'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(traktor) by extensions ['ros']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(traktor) by extension 'ros'
+[0.915s] DEBUG:colcon.colcon_core.package_identification:Package 'traktor' with type 'ros.ament_python' and name 'traktor'
+[0.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.915s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.993s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.029s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/emred/catkin_ws/install
+[1.043s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 395 installed packages in /opt/ros/humble
+[1.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.129s] Level 5:colcon.colcon_core.verb:set package 'ackermann_drive_controller' build argument 'cmake_args' from command line to 'None'
+[1.129s] Level 5:colcon.colcon_core.verb:set package 'ackermann_drive_controller' build argument 'cmake_target' from command line to 'None'
+[1.129s] Level 5:colcon.colcon_core.verb:set package 'ackermann_drive_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.129s] Level 5:colcon.colcon_core.verb:set package 'ackermann_drive_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.129s] Level 5:colcon.colcon_core.verb:set package 'ackermann_drive_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.129s] Level 5:colcon.colcon_core.verb:set package 'ackermann_drive_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.129s] Level 5:colcon.colcon_core.verb:set package 'ackermann_drive_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.129s] Level 5:colcon.colcon_core.verb:set package 'ackermann_drive_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.129s] Level 5:colcon.colcon_core.verb:set package 'ackermann_drive_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.129s] DEBUG:colcon.colcon_core.verb:Building package 'ackermann_drive_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/catkin_ws/src/build/ackermann_drive_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/catkin_ws/src/install/ackermann_drive_controller', 'merge_install': False, 'path': '/home/emred/catkin_ws/src/beetle/ackermann_drive_controller', 'symlink_install': False, 'test_result_base': None}
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'beetle_description' build argument 'cmake_args' from command line to 'None'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'beetle_description' build argument 'cmake_target' from command line to 'None'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'beetle_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'beetle_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'beetle_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'beetle_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'beetle_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'beetle_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.142s] Level 5:colcon.colcon_core.verb:set package 'beetle_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.142s] DEBUG:colcon.colcon_core.verb:Building package 'beetle_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/catkin_ws/src/build/beetle_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/catkin_ws/src/install/beetle_description', 'merge_install': False, 'path': '/home/emred/catkin_ws/src/beetle/beetle_description', 'symlink_install': False, 'test_result_base': None}
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'beetle_evaluation' build argument 'cmake_args' from command line to 'None'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'beetle_evaluation' build argument 'cmake_target' from command line to 'None'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'beetle_evaluation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'beetle_evaluation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'beetle_evaluation' build argument 'cmake_clean_first' from command line to 'False'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'beetle_evaluation' build argument 'cmake_force_configure' from command line to 'False'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'beetle_evaluation' build argument 'ament_cmake_args' from command line to 'None'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'beetle_evaluation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.154s] Level 5:colcon.colcon_core.verb:set package 'beetle_evaluation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.154s] DEBUG:colcon.colcon_core.verb:Building package 'beetle_evaluation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/catkin_ws/src/build/beetle_evaluation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/catkin_ws/src/install/beetle_evaluation', 'merge_install': False, 'path': '/home/emred/catkin_ws/src/beetle/beetle_evaluation', 'symlink_install': False, 'test_result_base': None}
+[1.166s] Level 5:colcon.colcon_core.verb:set package 'beetle_msgs' build argument 'cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'beetle_msgs' build argument 'cmake_target' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'beetle_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'beetle_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'beetle_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'beetle_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'beetle_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'beetle_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.167s] Level 5:colcon.colcon_core.verb:set package 'beetle_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.167s] DEBUG:colcon.colcon_core.verb:Building package 'beetle_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/catkin_ws/src/build/beetle_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/catkin_ws/src/install/beetle_msgs', 'merge_install': False, 'path': '/home/emred/catkin_ws/src/beetle/beetle_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_args' from command line to 'None'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_target' from command line to 'None'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.179s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.179s] DEBUG:colcon.colcon_core.verb:Building package 'four_ws_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/catkin_ws/src/build/four_ws_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/catkin_ws/src/install/four_ws_control', 'merge_install': False, 'path': '/home/emred/catkin_ws/src/four_ws_control', 'symlink_install': False, 'test_result_base': None}
+[1.191s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_args' from command line to 'None'
+[1.192s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_target' from command line to 'None'
+[1.192s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.192s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.192s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[1.192s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[1.192s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[1.192s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.192s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.192s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/catkin_ws/src/build/gazebo_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/catkin_ws/src/install/gazebo_simulation', 'merge_install': False, 'path': '/home/emred/catkin_ws/src/gazebo_simulation', 'symlink_install': False, 'test_result_base': None}
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'map_odom_static_broadcaster' build argument 'cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'map_odom_static_broadcaster' build argument 'cmake_target' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'map_odom_static_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'map_odom_static_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'map_odom_static_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'map_odom_static_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'map_odom_static_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'map_odom_static_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[1.204s] Level 5:colcon.colcon_core.verb:set package 'map_odom_static_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.204s] DEBUG:colcon.colcon_core.verb:Building package 'map_odom_static_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/catkin_ws/src/build/map_odom_static_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/catkin_ws/src/install/map_odom_static_broadcaster', 'merge_install': False, 'path': '/home/emred/catkin_ws/src/beetle/map_odom_static_broadcaster', 'symlink_install': False, 'test_result_base': None}
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'cmake_args' from command line to 'None'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'cmake_target' from command line to 'None'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'cmake_clean_cache' from command line to 'False'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'cmake_clean_first' from command line to 'False'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'cmake_force_configure' from command line to 'False'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'ament_cmake_args' from command line to 'None'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'catkin_cmake_args' from command line to 'None'
+[1.217s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.217s] DEBUG:colcon.colcon_core.verb:Building package 'traktor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/catkin_ws/src/build/traktor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/catkin_ws/src/install/traktor', 'merge_install': False, 'path': '/home/emred/catkin_ws/src/traktor', 'symlink_install': False, 'test_result_base': None}
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'beetle_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'beetle_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'beetle_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'beetle_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'beetle_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'beetle_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'beetle_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'beetle_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.229s] Level 5:colcon.colcon_core.verb:set package 'beetle_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.229s] DEBUG:colcon.colcon_core.verb:Building package 'beetle_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/catkin_ws/src/build/beetle_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/catkin_ws/src/install/beetle_gazebo', 'merge_install': False, 'path': '/home/emred/catkin_ws/src/beetle/beetle_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'beetle_msg_forwarder' build argument 'cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'beetle_msg_forwarder' build argument 'cmake_target' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'beetle_msg_forwarder' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'beetle_msg_forwarder' build argument 'cmake_clean_cache' from command line to 'False'
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'beetle_msg_forwarder' build argument 'cmake_clean_first' from command line to 'False'
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'beetle_msg_forwarder' build argument 'cmake_force_configure' from command line to 'False'
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'beetle_msg_forwarder' build argument 'ament_cmake_args' from command line to 'None'
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'beetle_msg_forwarder' build argument 'catkin_cmake_args' from command line to 'None'
+[1.242s] Level 5:colcon.colcon_core.verb:set package 'beetle_msg_forwarder' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.242s] DEBUG:colcon.colcon_core.verb:Building package 'beetle_msg_forwarder' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/catkin_ws/src/build/beetle_msg_forwarder', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/catkin_ws/src/install/beetle_msg_forwarder', 'merge_install': False, 'path': '/home/emred/catkin_ws/src/beetle/beetle_msg_forwarder', 'symlink_install': False, 'test_result_base': None}
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'beetle_navigation2' build argument 'cmake_args' from command line to 'None'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'beetle_navigation2' build argument 'cmake_target' from command line to 'None'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'beetle_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'beetle_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'beetle_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'beetle_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'beetle_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'beetle_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.254s] Level 5:colcon.colcon_core.verb:set package 'beetle_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.254s] DEBUG:colcon.colcon_core.verb:Building package 'beetle_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/catkin_ws/src/build/beetle_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/catkin_ws/src/install/beetle_navigation2', 'merge_install': False, 'path': '/home/emred/catkin_ws/src/beetle/beetle_navigation2', 'symlink_install': False, 'test_result_base': None}
+[1.266s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emred/catkin_ws/src/beetle/ackermann_drive_controller' with build type 'ament_cmake'
+[1.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emred/catkin_ws/src/beetle/ackermann_drive_controller'
+[1.294s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.294s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.294s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.334s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emred/catkin_ws/src/beetle/beetle_description' with build type 'ament_cmake'
+[1.334s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emred/catkin_ws/src/beetle/beetle_description'
+[1.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.387s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emred/catkin_ws/src/beetle/beetle_msgs' with build type 'ament_cmake'
+[1.387s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emred/catkin_ws/src/beetle/beetle_msgs'
+[1.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.440s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emred/catkin_ws/src/beetle/map_odom_static_broadcaster' with build type 'ament_cmake'
+[1.440s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emred/catkin_ws/src/beetle/map_odom_static_broadcaster'
+[1.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.493s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/emred/catkin_ws/src/beetle/beetle_evaluation' with build type 'ament_python'
+[1.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('beetle_evaluation', 'ament_prefix_path')
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/catkin_ws/src/install/beetle_evaluation/share/beetle_evaluation/hook/ament_prefix_path.ps1'
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emred/catkin_ws/src/install/beetle_evaluation/share/beetle_evaluation/hook/ament_prefix_path.dsv'
+[1.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/catkin_ws/src/install/beetle_evaluation/share/beetle_evaluation/hook/ament_prefix_path.sh'
+[1.519s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.559s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emred/catkin_ws/src/four_ws_control' with build type 'ament_cmake'
+[1.559s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emred/catkin_ws/src/four_ws_control'
+[1.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.612s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emred/catkin_ws/src/gazebo_simulation' with build type 'ament_cmake'
+[1.612s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emred/catkin_ws/src/gazebo_simulation'
+[1.625s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.664s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/emred/catkin_ws/src/traktor' with build type 'ament_python'
+[1.664s] Level 1:colcon.colcon_core.shell:create_environment_hook('traktor', 'ament_prefix_path')
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/catkin_ws/src/install/traktor/share/traktor/hook/ament_prefix_path.ps1'
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emred/catkin_ws/src/install/traktor/share/traktor/hook/ament_prefix_path.dsv'
+[1.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/catkin_ws/src/install/traktor/share/traktor/hook/ament_prefix_path.sh'
+[1.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.690s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/catkin_ws/src/build/ackermann_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/beetle/ackermann_drive_controller -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/src/install/ackermann_drive_controller
+[1.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/catkin_ws/src/build/beetle_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/beetle/beetle_description -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/src/install/beetle_description
+[1.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/catkin_ws/src/build/beetle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/beetle/beetle_msgs -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/src/install/beetle_msgs
+[1.756s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/catkin_ws/src/build/map_odom_static_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/beetle/map_odom_static_broadcaster -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/src/install/map_odom_static_broadcaster
+[2.038s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/emred/catkin_ws/src/beetle/beetle_evaluation'
+[2.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/catkin_ws/src/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/four_ws_control -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/src/install/four_ws_control
+[2.105s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/catkin_ws/src/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/src/install/gazebo_simulation
+[2.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete was interrupted
+[2.237s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete again
+[2.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished
+[2.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.251s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.251s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.269s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.269s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.281s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.295s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emred/catkin_ws/src/install/local_setup.ps1'
+[2.296s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/emred/catkin_ws/src/install/_local_setup_util_ps1.py'
+[2.297s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emred/catkin_ws/src/install/setup.ps1'
+[2.310s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emred/catkin_ws/src/install/local_setup.sh'
+[2.310s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/emred/catkin_ws/src/install/_local_setup_util_sh.py'
+[2.311s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emred/catkin_ws/src/install/setup.sh'
+[2.324s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emred/catkin_ws/src/install/local_setup.bash'
+[2.324s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emred/catkin_ws/src/install/setup.bash'
+[2.337s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emred/catkin_ws/src/install/local_setup.zsh'
+[2.338s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emred/catkin_ws/src/install/setup.zsh'

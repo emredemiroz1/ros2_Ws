@@ -1,0 +1,3 @@
+[console_scripts]
+beetle_evaluation_manager = beetle_evaluation.beetle_evaluation_manager:main
+

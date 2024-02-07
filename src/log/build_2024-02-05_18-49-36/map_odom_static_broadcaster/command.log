@@ -1,0 +1,1 @@
+Invoking command in '/home/emred/catkin_ws/src/build/map_odom_static_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/beetle/map_odom_static_broadcaster -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/src/install/map_odom_static_broadcaster

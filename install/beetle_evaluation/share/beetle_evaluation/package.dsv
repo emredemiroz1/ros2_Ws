@@ -1,0 +1,6 @@
+source;share/beetle_evaluation/hook/pythonpath.ps1
+source;share/beetle_evaluation/hook/pythonpath.dsv
+source;share/beetle_evaluation/hook/pythonpath.sh
+source;share/beetle_evaluation/hook/ament_prefix_path.ps1
+source;share/beetle_evaluation/hook/ament_prefix_path.dsv
+source;share/beetle_evaluation/hook/ament_prefix_path.sh
