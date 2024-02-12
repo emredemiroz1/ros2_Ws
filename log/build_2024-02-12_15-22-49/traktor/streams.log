@@ -1,0 +1,33 @@
+[0.739s] Invoking command in '/home/emred/ack_drive/src/traktor': PYTHONPATH=/home/emred/ack_drive/build/traktor/prefix_override:/home/emred/ack_drive/install/traktor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/traktor build --build-base /home/emred/ack_drive/build/traktor/build install --record /home/emred/ack_drive/build/traktor/install.log --single-version-externally-managed
+[0.959s] running egg_info
+[0.959s] creating ../../build/traktor/traktor.egg-info
+[0.959s] writing ../../build/traktor/traktor.egg-info/PKG-INFO
+[0.959s] writing dependency_links to ../../build/traktor/traktor.egg-info/dependency_links.txt
+[0.960s] writing entry points to ../../build/traktor/traktor.egg-info/entry_points.txt
+[0.960s] writing requirements to ../../build/traktor/traktor.egg-info/requires.txt
+[0.960s] writing top-level names to ../../build/traktor/traktor.egg-info/top_level.txt
+[0.960s] writing manifest file '../../build/traktor/traktor.egg-info/SOURCES.txt'
+[0.961s] reading manifest file '../../build/traktor/traktor.egg-info/SOURCES.txt'
+[0.962s] writing manifest file '../../build/traktor/traktor.egg-info/SOURCES.txt'
+[0.962s] running build
+[0.962s] running build_py
+[0.962s] creating /home/emred/ack_drive/build/traktor/build
+[0.963s] creating /home/emred/ack_drive/build/traktor/build/lib
+[0.963s] creating /home/emred/ack_drive/build/traktor/build/lib/traktor
+[0.963s] copying traktor/__init__.py -> /home/emred/ack_drive/build/traktor/build/lib/traktor
+[0.963s] running install
+[0.963s] running install_lib
+[0.963s] creating /home/emred/ack_drive/install/traktor/lib/python3.10/site-packages/traktor
+[0.964s] copying /home/emred/ack_drive/build/traktor/build/lib/traktor/__init__.py -> /home/emred/ack_drive/install/traktor/lib/python3.10/site-packages/traktor
+[0.964s] byte-compiling /home/emred/ack_drive/install/traktor/lib/python3.10/site-packages/traktor/__init__.py to __init__.cpython-310.pyc
+[0.964s] running install_data
+[0.965s] creating /home/emred/ack_drive/install/traktor/share/ament_index
+[0.965s] creating /home/emred/ack_drive/install/traktor/share/ament_index/resource_index
+[0.965s] creating /home/emred/ack_drive/install/traktor/share/ament_index/resource_index/packages
+[0.965s] copying resource/traktor -> /home/emred/ack_drive/install/traktor/share/ament_index/resource_index/packages
+[0.965s] copying package.xml -> /home/emred/ack_drive/install/traktor/share/traktor
+[0.966s] running install_egg_info
+[0.967s] Copying ../../build/traktor/traktor.egg-info to /home/emred/ack_drive/install/traktor/lib/python3.10/site-packages/traktor-0.0.0-py3.10.egg-info
+[0.968s] running install_scripts
+[0.986s] writing list of installed files to '/home/emred/ack_drive/build/traktor/install.log'
+[1.021s] Invoked command in '/home/emred/ack_drive/src/traktor' returned '0': PYTHONPATH=/home/emred/ack_drive/build/traktor/prefix_override:/home/emred/ack_drive/install/traktor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/traktor build --build-base /home/emred/ack_drive/build/traktor/build install --record /home/emred/ack_drive/build/traktor/install.log --single-version-externally-managed

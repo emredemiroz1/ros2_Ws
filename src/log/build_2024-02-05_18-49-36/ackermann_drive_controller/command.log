@@ -1,0 +1,1 @@
+Invoking command in '/home/emred/catkin_ws/src/build/ackermann_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/beetle/ackermann_drive_controller -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/src/install/ackermann_drive_controller

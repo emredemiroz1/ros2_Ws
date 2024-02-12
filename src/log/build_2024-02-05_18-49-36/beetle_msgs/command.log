@@ -1,0 +1,1 @@
+Invoking command in '/home/emred/catkin_ws/src/build/beetle_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/beetle/beetle_msgs -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/src/install/beetle_msgs

@@ -1,0 +1,9 @@
+/home/emred/ack_drive/build/four_ws_control/CMakeFiles/uninstall.dir
+/home/emred/ack_drive/build/four_ws_control/CMakeFiles/four_ws_control_uninstall.dir
+/home/emred/ack_drive/build/four_ws_control/CMakeFiles/test.dir
+/home/emred/ack_drive/build/four_ws_control/CMakeFiles/edit_cache.dir
+/home/emred/ack_drive/build/four_ws_control/CMakeFiles/rebuild_cache.dir
+/home/emred/ack_drive/build/four_ws_control/CMakeFiles/list_install_components.dir
+/home/emred/ack_drive/build/four_ws_control/CMakeFiles/install.dir
+/home/emred/ack_drive/build/four_ws_control/CMakeFiles/install/local.dir
+/home/emred/ack_drive/build/four_ws_control/CMakeFiles/install/strip.dir

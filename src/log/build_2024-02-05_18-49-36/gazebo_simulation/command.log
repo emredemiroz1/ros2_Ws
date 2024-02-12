@@ -1,0 +1,1 @@
+Invoking command in '/home/emred/catkin_ws/src/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/catkin_ws/install/traktor:/opt/ros/humble /usr/bin/cmake /home/emred/catkin_ws/src/gazebo_simulation -DCMAKE_INSTALL_PREFIX=/home/emred/catkin_ws/src/install/gazebo_simulation
