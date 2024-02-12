@@ -1,0 +1,402 @@
+[0.865s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.865s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f72910d7310>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f72910d4a90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f72910d4a90>>)
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.903s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.903s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/emred/ack_drive'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extensions ['ignore', 'ignore_ament_install']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extension 'ignore'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extension 'ignore_ament_install'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extensions ['colcon_pkg']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extension 'colcon_pkg'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extensions ['colcon_meta']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extension 'colcon_meta'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extensions ['ros']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extension 'ros'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extensions ['cmake', 'python']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extension 'cmake'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extension 'python'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extensions ['python_setup_py']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/beetle) by extension 'python_setup_py'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extensions ['ignore', 'ignore_ament_install']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'ignore'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'ignore_ament_install'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extensions ['colcon_pkg']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'colcon_pkg'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extensions ['colcon_meta']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'colcon_meta'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extensions ['ros']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_control) by extension 'ros'
+[0.918s] DEBUG:colcon.colcon_core.package_identification:Package 'src/four_ws_control' with type 'ros.ament_cmake' and name 'four_ws_control'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ignore'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ignore_ament_install'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['colcon_pkg']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'colcon_pkg'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['colcon_meta']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'colcon_meta'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['ros']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ros'
+[0.919s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_simulation' with type 'ros.ament_cmake' and name 'gazebo_simulation'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ignore_ament_install'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_pkg']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_pkg'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['colcon_meta']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'colcon_meta'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extensions ['ros']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_bringup) by extension 'ros'
+[0.920s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_bringup' with type 'ros.ament_cmake' and name 'my_robot_bringup'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.920s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/traktor) by extensions ['ignore', 'ignore_ament_install']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/traktor) by extension 'ignore'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/traktor) by extension 'ignore_ament_install'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/traktor) by extensions ['colcon_pkg']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/traktor) by extension 'colcon_pkg'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/traktor) by extensions ['colcon_meta']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/traktor) by extension 'colcon_meta'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/traktor) by extensions ['ros']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/traktor) by extension 'ros'
+[0.921s] DEBUG:colcon.colcon_core.package_identification:Package 'src/traktor' with type 'ros.ament_python' and name 'traktor'
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.921s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.023s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/emred/tas-gps/install
+[1.048s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 395 installed packages in /opt/ros/humble
+[1.050s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_args' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_target' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_clean_cache' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_clean_first' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_force_configure' from command line to 'False'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'ament_cmake_args' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'catkin_cmake_args' from command line to 'None'
+[1.164s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.164s] DEBUG:colcon.colcon_core.verb:Building package 'four_ws_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/ack_drive/build/four_ws_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/ack_drive/install/four_ws_control', 'merge_install': False, 'path': '/home/emred/ack_drive/src/four_ws_control', 'symlink_install': False, 'test_result_base': None}
+[1.177s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_args' from command line to 'None'
+[1.177s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_target' from command line to 'None'
+[1.177s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.177s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.177s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[1.177s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[1.177s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[1.177s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.177s] Level 5:colcon.colcon_core.verb:set package 'gazebo_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.177s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/ack_drive/build/gazebo_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/ack_drive/install/gazebo_simulation', 'merge_install': False, 'path': '/home/emred/ack_drive/src/gazebo_simulation', 'symlink_install': False, 'test_result_base': None}
+[1.189s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.190s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.190s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/ack_drive/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/ack_drive/install/my_robot_description', 'merge_install': False, 'path': '/home/emred/ack_drive/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'cmake_target' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'cmake_clean_cache' from command line to 'False'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'cmake_clean_first' from command line to 'False'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'cmake_force_configure' from command line to 'False'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'ament_cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'catkin_cmake_args' from command line to 'None'
+[1.202s] Level 5:colcon.colcon_core.verb:set package 'traktor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.202s] DEBUG:colcon.colcon_core.verb:Building package 'traktor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/ack_drive/build/traktor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/ack_drive/install/traktor', 'merge_install': False, 'path': '/home/emred/ack_drive/src/traktor', 'symlink_install': False, 'test_result_base': None}
+[1.214s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_args' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.215s] Level 5:colcon.colcon_core.verb:set package 'my_robot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.215s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/emred/ack_drive/build/my_robot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/emred/ack_drive/install/my_robot_bringup', 'merge_install': False, 'path': '/home/emred/ack_drive/src/my_robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.227s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.240s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.240s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emred/ack_drive/src/my_robot_description' with build type 'ament_cmake'
+[1.240s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emred/ack_drive/src/my_robot_description'
+[1.254s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emred/ack_drive/src/four_ws_control' with build type 'ament_cmake'
+[1.295s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emred/ack_drive/src/four_ws_control'
+[1.309s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.309s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.349s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emred/ack_drive/src/gazebo_simulation' with build type 'ament_cmake'
+[1.349s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emred/ack_drive/src/gazebo_simulation'
+[1.362s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.402s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/emred/ack_drive/src/traktor' with build type 'ament_python'
+[1.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('traktor', 'ament_prefix_path')
+[1.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/traktor/share/traktor/hook/ament_prefix_path.ps1'
+[1.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emred/ack_drive/install/traktor/share/traktor/hook/ament_prefix_path.dsv'
+[1.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/traktor/share/traktor/hook/ament_prefix_path.sh'
+[1.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.428s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/ack_drive/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --build /home/emred/ack_drive/build/my_robot_description -- -j16 -l16
+[1.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/ack_drive/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --build /home/emred/ack_drive/build/four_ws_control -- -j16 -l16
+[1.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/ack_drive/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --build /home/emred/ack_drive/build/gazebo_simulation -- -j16 -l16
+[1.716s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/emred/ack_drive/src/traktor'
+[1.753s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.753s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.824s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emred/ack_drive/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --build /home/emred/ack_drive/build/four_ws_control -- -j16 -l16
+[1.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emred/ack_drive/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --build /home/emred/ack_drive/build/my_robot_description -- -j16 -l16
+[1.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emred/ack_drive/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --build /home/emred/ack_drive/build/gazebo_simulation -- -j16 -l16
+[1.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/ack_drive/build/four_ws_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --install /home/emred/ack_drive/build/four_ws_control
+[1.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/ack_drive/build/gazebo_simulation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --install /home/emred/ack_drive/build/gazebo_simulation
+[1.875s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_ws_control)
+[1.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emred/ack_drive/build/four_ws_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --install /home/emred/ack_drive/build/four_ws_control
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control' for CMake module files
+[1.904s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control' for CMake config files
+[1.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_ws_control', 'cmake_prefix_path')
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.ps1'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.dsv'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.sh'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control/lib'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control/bin'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control/lib/pkgconfig/four_ws_control.pc'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control/lib/python3.10/site-packages'
+[1.918s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control/bin'
+[1.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/package.ps1'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/package.dsv'
+[1.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/package.sh'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/package.bash'
+[1.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/package.zsh'
+[1.934s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emred/ack_drive/install/four_ws_control/share/colcon-core/packages/four_ws_control)
+[1.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_simulation)
+[1.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/ack_drive/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --install /home/emred/ack_drive/build/my_robot_description
+[1.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emred/ack_drive/build/gazebo_simulation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --install /home/emred/ack_drive/build/gazebo_simulation
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation' for CMake module files
+[1.956s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation' for CMake config files
+[1.957s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_simulation', 'cmake_prefix_path')
+[1.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.ps1'
+[1.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.dsv'
+[1.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.sh'
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation/lib'
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation/bin'
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation/lib/pkgconfig/gazebo_simulation.pc'
+[1.971s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation/lib/python3.10/site-packages'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation/bin'
+[1.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/package.ps1'
+[1.985s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/package.dsv'
+[1.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/package.sh'
+[1.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/package.bash'
+[1.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/package.zsh'
+[1.986s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emred/ack_drive/install/gazebo_simulation/share/colcon-core/packages/gazebo_simulation)
+[2.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_ws_control)
+[2.014s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control' for CMake module files
+[2.015s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control' for CMake config files
+[2.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_ws_control', 'cmake_prefix_path')
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.ps1'
+[2.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.dsv'
+[2.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.sh'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control/lib'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control/bin'
+[2.029s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control/lib/pkgconfig/four_ws_control.pc'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control/lib/python3.10/site-packages'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/four_ws_control/bin'
+[2.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/package.ps1'
+[2.043s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/package.dsv'
+[2.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/package.sh'
+[2.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/package.bash'
+[2.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/four_ws_control/share/four_ws_control/package.zsh'
+[2.045s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emred/ack_drive/install/four_ws_control/share/colcon-core/packages/four_ws_control)
+[2.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[2.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emred/ack_drive/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --install /home/emred/ack_drive/build/my_robot_description
+[2.059s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_description' for CMake module files
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_description' for CMake config files
+[2.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_description/bin'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[2.074s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_description/lib/python3.10/site-packages'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_description/bin'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/package.ps1'
+[2.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/package.dsv'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/package.sh'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/package.bash'
+[2.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/package.zsh'
+[2.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emred/ack_drive/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[2.104s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_simulation)
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation' for CMake module files
+[2.117s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation' for CMake config files
+[2.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_simulation', 'cmake_prefix_path')
+[2.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.ps1'
+[2.131s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.dsv'
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/hook/cmake_prefix_path.sh'
+[2.132s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation/lib'
+[2.132s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation/bin'
+[2.132s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation/lib/pkgconfig/gazebo_simulation.pc'
+[2.132s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation/lib/python3.10/site-packages'
+[2.132s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/gazebo_simulation/bin'
+[2.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/package.ps1'
+[2.146s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/package.dsv'
+[2.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/package.sh'
+[2.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/package.bash'
+[2.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/gazebo_simulation/share/gazebo_simulation/package.zsh'
+[2.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emred/ack_drive/install/gazebo_simulation/share/colcon-core/packages/gazebo_simulation)
+[2.162s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[2.176s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_description' for CMake module files
+[2.177s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_description' for CMake config files
+[2.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[2.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[2.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[2.205s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_description/bin'
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_description/lib/python3.10/site-packages'
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_description/bin'
+[2.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/package.ps1'
+[2.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/package.dsv'
+[2.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/package.sh'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/package.bash'
+[2.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_description/share/my_robot_description/package.zsh'
+[2.220s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emred/ack_drive/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[2.221s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/emred/ack_drive/src/my_robot_bringup' with build type 'ament_cmake'
+[2.221s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/emred/ack_drive/src/my_robot_bringup'
+[2.234s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.234s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/ack_drive/src/traktor': PYTHONPATH=/home/emred/ack_drive/build/traktor/prefix_override:/home/emred/ack_drive/install/traktor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/traktor build --build-base /home/emred/ack_drive/build/traktor/build install --record /home/emred/ack_drive/build/traktor/install.log --single-version-externally-managed
+[2.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/ack_drive/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/emred/ack_drive/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/ack_drive/install/my_robot_description:/home/emred/tas-gps/install/my_robot_bringup:/home/emred/tas-gps/install/my_robot_description:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --build /home/emred/ack_drive/build/my_robot_bringup -- -j16 -l16
+[2.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emred/ack_drive/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/emred/ack_drive/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/ack_drive/install/my_robot_description:/home/emred/tas-gps/install/my_robot_bringup:/home/emred/tas-gps/install/my_robot_description:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --build /home/emred/ack_drive/build/my_robot_bringup -- -j16 -l16
+[2.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/emred/ack_drive/build/my_robot_bringup': AMENT_PREFIX_PATH=/home/emred/ack_drive/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/ack_drive/install/my_robot_description:/home/emred/tas-gps/install/my_robot_bringup:/home/emred/tas-gps/install/my_robot_description:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --install /home/emred/ack_drive/build/my_robot_bringup
+[2.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[2.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emred/ack_drive/build/my_robot_bringup' returned '0': AMENT_PREFIX_PATH=/home/emred/ack_drive/install/my_robot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/emred/ack_drive/install/my_robot_description:/home/emred/tas-gps/install/my_robot_bringup:/home/emred/tas-gps/install/my_robot_description:/home/emred/tas-gps/install/moveon_control:/opt/ros/humble /usr/bin/cmake --install /home/emred/ack_drive/build/my_robot_bringup
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_bringup' for CMake module files
+[2.396s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_bringup' for CMake config files
+[2.396s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[2.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[2.410s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_bringup/bin'
+[2.410s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[2.410s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_bringup/lib/python3.10/site-packages'
+[2.410s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_bringup/bin'
+[2.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[2.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[2.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emred/ack_drive/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[2.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_bringup)
+[2.479s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_bringup' for CMake module files
+[2.479s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_bringup' for CMake config files
+[2.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_bringup', 'cmake_prefix_path')
+[2.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.ps1'
+[2.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.dsv'
+[2.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/hook/cmake_prefix_path.sh'
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_bringup/bin'
+[2.495s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_bringup/lib/pkgconfig/my_robot_bringup.pc'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_bringup/lib/python3.10/site-packages'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/my_robot_bringup/bin'
+[2.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/package.ps1'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/package.dsv'
+[2.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/package.sh'
+[2.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/package.bash'
+[2.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/my_robot_bringup/share/my_robot_bringup/package.zsh'
+[2.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emred/ack_drive/install/my_robot_bringup/share/colcon-core/packages/my_robot_bringup)
+[2.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/emred/ack_drive/src/traktor' returned '0': PYTHONPATH=/home/emred/ack_drive/build/traktor/prefix_override:/home/emred/ack_drive/install/traktor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/traktor build --build-base /home/emred/ack_drive/build/traktor/build install --record /home/emred/ack_drive/build/traktor/install.log --single-version-externally-managed
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/traktor' for CMake module files
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/traktor' for CMake config files
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/traktor/lib'
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/traktor/bin'
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/traktor/lib/pkgconfig/traktor.pc'
+[2.554s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/traktor/lib/python3.10/site-packages'
+[2.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('traktor', 'pythonpath')
+[2.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/traktor/share/traktor/hook/pythonpath.ps1'
+[2.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/emred/ack_drive/install/traktor/share/traktor/hook/pythonpath.dsv'
+[2.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/emred/ack_drive/install/traktor/share/traktor/hook/pythonpath.sh'
+[2.567s] Level 1:colcon.colcon_core.environment:checking '/home/emred/ack_drive/install/traktor/bin'
+[2.567s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(traktor)
+[2.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/traktor/share/traktor/package.ps1'
+[2.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/emred/ack_drive/install/traktor/share/traktor/package.dsv'
+[2.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/traktor/share/traktor/package.sh'
+[2.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/traktor/share/traktor/package.bash'
+[2.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/emred/ack_drive/install/traktor/share/traktor/package.zsh'
+[2.581s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/emred/ack_drive/install/traktor/share/colcon-core/packages/traktor)
+[2.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.581s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.581s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.630s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.630s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.630s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.651s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.664s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emred/ack_drive/install/local_setup.ps1'
+[2.664s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/emred/ack_drive/install/_local_setup_util_ps1.py'
+[2.665s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emred/ack_drive/install/setup.ps1'
+[2.678s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emred/ack_drive/install/local_setup.sh'
+[2.678s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/emred/ack_drive/install/_local_setup_util_sh.py'
+[2.679s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emred/ack_drive/install/setup.sh'
+[2.692s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emred/ack_drive/install/local_setup.bash'
+[2.692s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emred/ack_drive/install/setup.bash'
+[2.705s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/emred/ack_drive/install/local_setup.zsh'
+[2.706s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/emred/ack_drive/install/setup.zsh'

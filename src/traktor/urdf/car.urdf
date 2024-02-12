@@ -282,59 +282,8 @@
 
 
 
+
 <gazebo>
-    <plugin name="gazebo_ros_ackermann_drive" filename="libgazebo_ros_ackermann_drive.so">
-
-  <ros>
-    <namespace>ackermann</namespace>
-    <remapping>cmd_vel:=cmd_vel</remapping>
-    <remapping>odom:=odom</remapping>
-    <remapping>distance:=distance</remapping>
-  </ros>
-
-  <update_rate>100.0</update_rate>
-
-  <!-- wheels -->
-  <front_left_joint>sol_on_dif_sol_on_teker</front_left_joint>
-  <front_right_joint>sag_on_dif_sag_on_teker</front_right_joint>
-  <rear_left_joint>sol_arka_dif_joint</rear_left_joint>
-  <rear_right_joint>sag_arka_dif_joint</rear_right_joint>
-  <left_steering_joint>sol_on_dif_joint</left_steering_joint>
-  <right_steering_joint>sag_on_dif_joint</right_steering_joint>
-  <steering_wheel_joint>direksiyon_joint</steering_wheel_joint>
-  
-
-  <!-- Max absolute steer angle for tyre in radians-->
-  <!-- Any cmd_vel angular z greater than this would be capped -->
-  <max_steer>0.6458</max_steer>
-
-  <!-- Max absolute steering angle of steering wheel -->
-  <max_steering_angle>7.85</max_steering_angle>
-
-  <!-- Max absolute linear speed in m/s -->
-  <max_speed>20</max_speed>
-
-  <!-- PID tuning -->
-  <left_steering_pid_gain>1500 0 1</left_steering_pid_gain>
-  <left_steering_i_range>0 0</left_steering_i_range>
-  <right_steering_pid_gain>1500 0 1</right_steering_pid_gain>
-  <right_steering_i_range>0 0</right_steering_i_range>
-  <linear_velocity_pid_gain>1000 0 1</linear_velocity_pid_gain>
-  <linear_velocity_i_range>0 0</linear_velocity_i_range>
-
-  <!-- output -->
-  <publish_odom>true</publish_odom>
-  <publish_odom_tf>true</publish_odom_tf>
-  <publish_wheel_tf>true</publish_wheel_tf>
-  <publish_distance>true</publish_distance>
-
-  <odometry_frame>odom</odometry_frame>
-  <robot_base_frame>base_link</robot_base_frame>
-
-  </plugin>
-</gazebo>
-
-  <gazebo>
     <plugin name="gazebo_ros_ackermann_drive" filename="libgazebo_ros_ackermann_drive.so">
       <ros>
         <namespace>demo</namespace>
@@ -373,7 +322,7 @@
       <odometry_frame>odom_demo</odometry_frame>
       <robot_base_frame>base_link</robot_base_frame>
     </plugin>
-  </gazebo>
+</gazebo>
 
 
 
